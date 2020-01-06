@@ -6,5 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+post = Post.where(title: 'A Cool Post', content: 'This is about cool cats.').first_or_create
 
-puts "Hello Foxtrot 202019"
+comment = post.comments.where(author: 'Jane', content: 'That is a mighty cool cat indeed.').first_or_create
+
+comment_2 = post.comments.where(author: 'Bob', content: 'I like fish.').first_or_create

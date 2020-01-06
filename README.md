@@ -1,8 +1,8 @@
 ## Todo
-[ ] Create Posts
+[ X ] Create Posts
 
-[ ] Crate Comments
+[ X ] Crate Comments
 
-[ ] Associate Posts to Comments
+[ X ] Associate Posts to Comments
 
 [ ] Create some seeds
