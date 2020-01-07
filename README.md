@@ -5,4 +5,10 @@
 
 [ X ] Associate Posts to Comments
 
-[ ] Create some seeds
+[ X ] Create some seeds
+
+[ ] Add Post Controller
+
+[ ] Add index view
+
+[ ] Add show for posts

@@ -8,6 +8,8 @@
 
 post = Post.where(title: 'A Cool Post', content: 'This is about cool cats.').first_or_create
 
+post = Post.where(title: 'A Icy Post', content: 'This is about Icy cats who wear drippy clothes.').first_or_create
+
 comment = post.comments.where(author: 'Jane', content: 'That is a mighty cool cat indeed.').first_or_create
 
 comment_2 = post.comments.where(author: 'Bob', content: 'I like fish.').first_or_create

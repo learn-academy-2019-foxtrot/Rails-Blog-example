@@ -1,0 +1,11 @@
+<!-- /app/views/posts/index.html.erb -->
+
+<h1>The Posts</h1>
+
+<ul>
+
+<!-- <a href="/posts/1">A hot post</a> -->
+<% @posts.each do |post| %>
+  <li><%= link_to post.title, post %></li>
+<% end %>
+</ul>
